@@ -47,6 +47,11 @@ This starter kit provides a foundation for creating Next.js projects using Curso
 
 7. Manage URL state with `nuqs` when necessary.
 
+8. Utilize the `@/prompts` folder:
+   - Set up frontend prompts for UI components and layouts
+   - Create backend prompts for API routes and server-side logic
+   - Use prompts to generate consistent code across the project
+
 ## Best Practices
 
 - Follow TypeScript best practices
@@ -59,3 +64,19 @@ This starter kit provides a foundation for creating Next.js projects using Curso
 Deploy your Next.js application using Vercel or your preferred hosting platform.
 
 Remember to customize this starter kit based on your project's specific requirements and team preferences.
+
+## Using @/prompts Folder
+
+The `@/prompts` folder is a powerful tool for setting up both frontend and backend components of your Next.js application:
+
+### Frontend Prompts
+1. Create prompts for common UI components (e.g., forms, modals, cards)
+2. Define layout structures and responsive designs
+3. Generate consistent styling using Tailwind CSS classes
+
+### Backend Prompts
+1. Set up API route templates
+2. Create database models and query structures
+3. Define authentication and authorization logic
+
+By utilizing the `@/prompts` folder, you can ensure consistency across your project and speed up development by generating boilerplate code for both frontend and backend components.
